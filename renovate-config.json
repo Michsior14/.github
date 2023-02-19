@@ -5,6 +5,9 @@
     ":preserveSemverRanges",
     ":prHourlyLimitNone",
     ":label(dependencies)",
-    ":semanticCommitTypeAll(build)"
+    ":semanticCommitTypeAll(build)",
+    ":enableVulnerabilityAlerts",
+    ":maintainLockFilesWeekly",
+    ":disableDependencyDashboard"
   ]
 }
